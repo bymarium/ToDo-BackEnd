@@ -74,7 +74,7 @@
                     <archive>
                         <manifest>
                             <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
-                            <mainClass>com.example.MainClass</mainClass>
+                            <mainClass>com.example.task.appTask.AppTaskApplication</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
