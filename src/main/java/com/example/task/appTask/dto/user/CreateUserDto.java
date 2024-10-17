@@ -1,11 +1,11 @@
 package com.example.task.appTask.dto.user;
 
-import lombok.*;
-
-@Getter
-@Setter
-@AllArgsConstructor
-@EqualsAndHashCode(callSuper = true)
 public class CreateUserDto extends UserDto{
+    public CreateUserDto() {
+    }
+
+    public CreateUserDto(long document, String userName, String email, String password) {
+        super(document, userName, email, password);
+    }
 }
 

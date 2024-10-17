@@ -6,7 +6,6 @@ import com.example.task.appTask.dto.user.DeleteUserDto;
 import com.example.task.appTask.dto.user.GetUserDto;
 import com.example.task.appTask.dto.user.UpdateUserDto;
 import com.example.task.appTask.model.*;
-import org.hibernate.sql.Delete;
 
 import java.util.ArrayList;
 import java.util.List;

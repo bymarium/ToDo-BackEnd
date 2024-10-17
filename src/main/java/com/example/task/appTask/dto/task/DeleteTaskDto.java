@@ -1,10 +1,10 @@
 package com.example.task.appTask.dto.task;
 
-import lombok.*;
-
-@Getter
-@Setter
-@AllArgsConstructor
-@EqualsAndHashCode(callSuper = true)
 public class DeleteTaskDto extends TaskDto {
+    public DeleteTaskDto() {
+    }
+
+    public DeleteTaskDto(long id, String title, String description, boolean completed) {
+        super(id, title, description, completed);
+    }
 }

@@ -1,10 +1,10 @@
 package com.example.task.appTask.dto.user;
 
-import lombok.*;
-
-@Getter
-@Setter
-@AllArgsConstructor
-@EqualsAndHashCode(callSuper = true)
 public class DeleteUserDto extends UserDto{
+    public DeleteUserDto() {
+    }
+
+    public DeleteUserDto(long document, String userName, String email, String password) {
+        super(document, userName, email, password);
+    }
 }

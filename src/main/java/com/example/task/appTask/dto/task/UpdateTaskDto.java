@@ -1,11 +1,10 @@
 package com.example.task.appTask.dto.task;
 
-import lombok.*;
-
-@Getter
-@Setter
-@AllArgsConstructor
-@EqualsAndHashCode(callSuper = true)
 public class UpdateTaskDto extends TaskDto {
+    public UpdateTaskDto() {
+    }
 
+    public UpdateTaskDto(long id, String title, String description, boolean completed) {
+        super(id, title, description, completed);
+    }
 }
