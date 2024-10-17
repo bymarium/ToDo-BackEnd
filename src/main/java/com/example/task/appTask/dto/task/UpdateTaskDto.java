@@ -1,10 +1,9 @@
 package com.example.task.appTask.dto.task;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.EqualsAndHashCode;
+import lombok.*;
 
-@Data
+@Getter
+@Setter
 @AllArgsConstructor
 @EqualsAndHashCode(callSuper = true)
 public class UpdateTaskDto extends TaskDto {

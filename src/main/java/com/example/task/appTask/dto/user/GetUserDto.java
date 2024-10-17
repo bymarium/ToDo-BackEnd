@@ -1,13 +1,12 @@
 package com.example.task.appTask.dto.user;
 
 import com.example.task.appTask.dto.task.GetTaskDto;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.EqualsAndHashCode;
+import lombok.*;
 
 import java.util.List;
 
-@Data
+@Getter
+@Setter
 @AllArgsConstructor
 @EqualsAndHashCode(callSuper = true)
 public class GetUserDto extends UserDto {
